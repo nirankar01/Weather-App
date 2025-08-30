@@ -1,0 +1,86 @@
+.cart {
+    border: 2px solid black;
+    width: 50%;
+    max-width: 450px;
+    background-color: rgb(19, 49, 49);
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+}
+
+.search {
+    padding: 20px;
+
+}
+
+.search input {
+    font-size: 20px;
+    height: 10px;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.search button {
+    border: none;
+    border-radius: 25px;
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+.search button img {
+    height: 20px;
+}
+
+.details {
+    display: flex;
+    margin: 10px;
+    margin-left: 60px;
+    gap: 40px;
+}
+
+.weather .temp {
+    /* background-color: red; */
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.weather .city {
+    font-size: 30px;
+    margin: 4px;
+    color: white;
+    padding: 10px;
+}
+
+.humidy-container {
+    display: flex;
+
+}
+
+.humidy-container div {
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.humidy-container img {
+    height: 45px;
+    padding: 10px;
+}
+
+.wind-container img {
+    height: 45px;
+    padding: 10px;
+}
+
+.wind-container {
+    display: flex;
+}
+
+.wind-container div {
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
